@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(lo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh; 
+    background-color:#22195B;
+    
+}
+.navbar{
+    background-color: #22195B;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color:gray !important;
+  
+}
+.navbar-brand{
+    color: white !important;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.ad{
+    font-weight: 700;
+    color:white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50px;
+}
+.bt{
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+.main-button{
+    display: inline-block;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #3a414e;
+    transition: all .4s ease;
+    border: 2px solid #21146A;
+}
+.main-button:hover{
+    background-color: #21146a;
+    color: white;
+}
+.banner{
+    padding-top: 220px;
+}
+.title h1{
+    font-weight: 700;
+    color: #3a414e;
+    margin-bottom: 10px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.des{
+    color: #3a414e;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 40px;
+}
+.about{
+	width: 100%;
+    padding: 80px 0;
+    margin-top: 90px;
+}
+
+.title{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    color: #3a414e;
+    margin-bottom: 10px;
+}
+.title p{
+	font-family: 'Roboto', sans-serif;
+	margin-left: 100px;
+    margin-right: 100px;
+}
+.second{
+	margin: 60px 0;
+}
+.service-1{
+	border: 1px solid #FAF9FF;
+    background: #FAF9FF;
+    padding: 20px 30px;
+    transition: 0.5s;
+}
+.service-1:hover{
+	background: #fff;
+    box-shadow: 0px 10px 20px 0px;
+    transition: 0.5s;
+}
+.service-1 h3{
+	font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    margin: 15px 0;
+    color: #3a414e;
+    font-size: 20px;
+}
+.service-1 i{
+	font-size: 42px;
+}
+.service-1 p{
+    color: #797979;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.cate{
+    font-family: "Rajdhani",sans-serif;
+    color: #3a414e;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+.middle{
+    margin-bottom: 120px;
+}
+.mid{
+    margin-bottom: 80px;
+}
+.td{
+    padding-top: 35px;
+}
+.feature{
+    margin-bottom: 160px;
+}
+.mt{
+    padding-left: 70px;
+}
+.simple{
+    margin-bottom: 100px;
+}
+.chose{
+    margin-bottom: 60px;
+}
+.card{
+    text-align: center ;
+}
+.card-footer{
+    background: white;
+    border-bottom: 1px solid lightgray;
+}
+.card:hover{
+    background: #fff;
+    box-shadow: 0px 10px 5px 0px;
+    transition: 0.5s;
+}
+.car{
+    margin-bottom: 120px;
+}
+.client{
+    margin-bottom: 80px;
+}
+.slide{
+    margin-bottom: 100px;
+}
+.photo{
+    text-align: center;
+}
+.carousel-indicators li{
+    background-color:blue;
+    position: relative;
+    top: 100px;
+}
+.carousel-item{
+    text-align: center;
+}
+.bottom{
+    width: 100%;
+    height: 400px;
+    background: #0E1424;
+}
+#email{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+}
+.button{
+    position: relative;
+    left: 240px;
+    top: 20%;
+    margin-top: 10px;
+    height: 30px;
+    color: gray;
+    background: white;
+}
+.left{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.social-icon{
+    text-align: center;
+    float: right;
+}
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    background: gray;
+    
+}
+
+.social-icon ul li i{
+    margin: 14px;
+} 
+
+.social-icon ul li:hover{
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px;
+    transition: 0.5s;
+}
+.logo{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.social-icon ul{
+    position: relative;
+    right: 140px;
+    bottom: 40px;
+}
+.white{
+    color: white;
+}
+.left h3{
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+}
+.left p{
+    color: #797979;
+}
+.end{
+    color: #797979;
+}
+input{
+    
+    background-color: #797979;
+}
+::-webkit-input-placeholder{
+    color:lightgray;
+}
+.last{
+    margin-top: 120px;
+}
+.card-footer h2{
+    font-family: "Rajdhani",sans-serif;
+    color: #3a414e;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+.card-footer p{
+   color: gray;
+    font-family: 'Rajdhani', sans-serif;
+}
+.card-footer h1{
+    color:  #3a414e;
+}
+.card-body p{
+    font-family: 'Rajdhani', sans-serif;
+    color: gray;
+}
+.sli{
+    margin-top: 200px;
+}
+.carousel-inner{
+    padding-left: 90px;
+}
