@@ -36,6 +36,9 @@ header{
     color: white;
     font-family: 'Rajdhani', sans-serif;
 }
+.ti{
+    padding-left: 80px;
+}
 .main-button{
     display: inline-block;
     border: 1px solid transparent;
@@ -171,6 +174,7 @@ header{
     background-color:blue;
     position: relative;
     top: 100px;
+    left: 40px;
 }
 .carousel-item{
     text-align: center;
